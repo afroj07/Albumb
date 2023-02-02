@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Album</title>
+    <style>
+        .container{
+            display: grid;
+            height: 500px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 300px 300px 300px;
+        }
+        
+        .box1{
+            background-color: rgb(204, 62, 62);
+            grid-row-start: 1;
+            grid-row-end: 2;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 200px;
+
+        }
+        .box2{
+            background-color: yellow;
+        }
+        .box3{
+            background-color: gray;
+        }
+        .box4{
+            background-color: darkblue;
+    
+        }
+        .box5{
+            background-color: magenta;
+        }
+        .box6{
+            background-color: forestgreen;
+        }
+        .box7{
+            background-color: pink;
+        }
+        .box8{
+            background-color: brown;
+        }
+        .box9{
+            background-color: rgb(166, 221, 216);
+        }
+        .box11{
+            background-color: aqua;
+        }
+        .box12{
+            background-color: rgb(178, 205, 193);
+        }
+        .box13{
+            background-color: rgb(95, 219, 28);
+        }
+        .box14{
+            background-color: rgb(178, 43, 43);
+            grid-column-start: 1;
+            grid-column-end: 4;
+            image-rendering: auto;
+        }
+        img{
+            margin: 7px 5px 5px 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Creating Album -->
+    <div class="container">
+        <div class="box box1">
+            <div class="box11"><img src="https://images.pexels.com/photos/4004375/pexels-photo-4004375.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&dpr=2" alt=""></div>
+            <div class="box12"><img src="https://images.pexels.com/photos/12318508/pexels-photo-12318508.jpeg?auto=compress&cs=tinysrgb&w=150&h=250" alt=""></div>
+            <div class="box13"><img src="https://images.pexels.com/photos/12531788/pexels-photo-12531788.jpeg?auto=compress&cs=tinysrgb&w=150&h250lazy=load" alt=""></div>
+            <div class="box14"><img src="https://images.pexels.com/photos/2123666/pexels-photo-2123666.jpeg?auto=compress&cs=tinysrgb&w=100px&h=450" alt=""></div>
+
+        </div>
+        <div class="box box2"> <img src="https://images.pexels.com/photos/39853/woman-girl-freedom-happy-39853.jpeg?auto=compress&cs=tinysrgb&w=210&h=310px&dpr=2" alt="image1"></div>
+        <div class="box box3"><img src="https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&w=210&h=305&dpr=2" alt="1mg2"></div>
+        <div class="box box4"><img src="https://images.pexels.com/photos/344060/pexels-photo-344060.jpeg?auto=compress&cs=tinysrgb&w=220&h=300px&dpr=2" alt=""></div>
+        <div class="box box5"><img src="https://images.pexels.com/photos/1212693/pexels-photo-1212693.jpeg?auto=compress&cs=tinysrgb&w=210&h=330px&dpr=2" alt=""></div>
+        <div class="box box6"><img src="https://images.pexels.com/photos/15239/flower-roses-red-roses-bloom.jpg?auto=compress&cs=tinysrgb&w=210&h=300&dpr=2" alt=""></div>
+        <div class="box box7"><img src="https://images.pexels.com/photos/2131614/pexels-photo-2131614.jpeg?auto=compress&cs=tinysrgb&w=220&h=300&dpr=2" alt=""></div>
+        <div class="box box8"><img src="https://images.pexels.com/photos/6711881/pexels-photo-6711881.jpeg?auto=compress&cs=tinysrgb&w=210&h=330&dpr=2" alt=""></div>
+        <div class="box box9"><img src="https://images.pexels.com/photos/698921/pexels-photo-698921.jpeg?auto=compress&cs=tinysrgb&w=210&h=290px&dpr=2" alt=""></div>
+    </div>
+    </body>
+</html>
